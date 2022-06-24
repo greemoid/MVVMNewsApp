@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.androiddevs.mvvmnewsapp.R
 import com.androiddevs.mvvmnewsapp.adapters.NewsAdapter
 import com.androiddevs.mvvmnewsapp.databinding.FragmentBreakingNewsBinding
 import com.androiddevs.mvvmnewsapp.ui.NewsActivity
@@ -71,6 +72,7 @@ class BreakingNewsFragment : Fragment() {
             layoutManager = LinearLayoutManager(activity)
         }
     }
+
 
     companion object {
         const val TAG = "breakingNewsFragment"
