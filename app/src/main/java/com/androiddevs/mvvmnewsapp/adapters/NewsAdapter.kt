@@ -45,7 +45,7 @@ class NewsAdapter: RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
 
             tvTitle.text = article.title
             tvDescription.text = article.description
-            tvSource.text = article.source.name
+            tvSource.text = article.source?.name
             tvPublishedAt.text = article.publishedAt
         }
         holder.itemView.setOnClickListener{
